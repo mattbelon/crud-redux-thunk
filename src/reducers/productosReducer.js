@@ -49,7 +49,6 @@ export default function(state = initialSate, action){
             return {
                 ...state,
                 productoeliminar: action.payload
-
             }
         case PRODUCTO_ELIMINADO_EXITO:
                 return {

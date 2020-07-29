@@ -12,7 +12,7 @@ const Producto = ({producto}) => {
     // confirmar
     const confirmEliminar = id =>{
 
-        dispatch(borrarProductAction(id))
+        dispatch(borrarProductAction(id));
     }
     return (
 <tr>
